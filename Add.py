@@ -7,10 +7,9 @@ def add():
 	con=sqlite3.connect('phone.db')
 	cur=con.cursor()
 	top.title('Add')
-	top.geometry('1250x720')
-	top.maxsize(1250, 720)
- 
-
+	top.geometry('1250x740')
+	top.maxsize(1250,740)
+	top.minsize(1250,740)
 	top.configure(bg='black')
 	#adding form
 	l4=Label(top,text='Adding data',bg='#242424',font=('corbel' ,20 ),fg='white',padx=100,pady=20)
