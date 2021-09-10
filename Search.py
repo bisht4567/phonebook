@@ -8,7 +8,9 @@ def search():
 	cur=con.cursor()
 		
 	top1.title('Search')
-	top1.geometry('1250x720')
+	top1.geometry('1250x740')
+	top1.maxsize(1250,720)
+	top1.minsize(1250,720)
 	top1.configure(bg='black')
 	l4=Label(top1,text='Search data',bg='#242424',font=('corbel' ,20 ),fg='white',padx=100,pady=20)
 	l4.pack(fill=X)
