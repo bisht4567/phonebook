@@ -8,7 +8,9 @@ def delete():
 	cur=con.cursor()
 		
 	top3.title('Delete')
-	top3.geometry('1250x720')
+	top3.geometry('1250x740')
+	top.maxsize(1250,720)
+	top.minsize(1250,720)
 	top3.configure(bg='black')
 	l4=Label(top3,text='Delete data',bg='#242424',font=('corbel' ,20 ),fg='white',padx=100,pady=20)
 	l4.pack(fill=X)
